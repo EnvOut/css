@@ -1,4 +1,4 @@
-h1 {
+h1, p, address {
     font-family: 'Palatino Linotype', Baskerville, serif;
     font-size: 1.25em;
     color: #616161;
@@ -30,3 +30,4 @@ h2 {
     margin-left: 0;
     margin-bottom: 25px;
 }
+
