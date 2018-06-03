@@ -1,5 +1,6 @@
 /*import*/
 @import url('https://fonts.googleapis.com/css?family=Kurale');
+
 h1 {
     /*fornt size*/
     font-size: 0;
@@ -16,9 +17,19 @@ h1 {
     /*радиус рамки*/
     border-radius: 10px;
 
+    /*рамка*/
+    border-bottom: 2px black solid;
+
     /*тень*/
     box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
 
     /*фоновый цвет*/
     background-color: #E1EDEB;
+
+    /*фон*/
+    /*background: url("https://github.com/mrightman/css_4e") no-repeat 10px 10px;*/
+    background-image: url("https://github.com/mrightman/css_4e");
+    background-repeat: no-repeat;
+    -ms-background-position-x: 10px;
+    -ms-background-position-y: 10px;
 }
