@@ -1,0 +1,95 @@
+.main-container {
+    /*background-image: url("img/login-bg-image-parking.jpg");*/
+    padding: 50px;
+    background: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+border-radius: 0.5em;
+    /*size: 100% auto;*/
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    background: url("img/login-bg-image-parking.jpg") no-repeat;
+    /*background: url("https://github.com/mrightman/css_4e") no-repeat 10px 10px;*/
+    font: 400 15px/1.55 "Open Sans", sans-serif;
+}
+
+.field {
+    clear: both;
+    text-align: right;
+    margin: 1em;
+}
+
+.field > label {
+    float: left;
+    margin: 1em;
+}
+
+#login-label {
+    text-align: center;
+    float: left;
+}
+
+.login-button {
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    cursor: pointer;
+    height: 32px;
+    padding: 0 14px;
+    color: #191919;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1px solid #c5c5c5;
+    border-top-color: #c5c5c5;
+    border-bottom-color: #bcbcbc;
+    background-color: #fafafa;
+    background-image: -webkit-linear-gradient(top, #fafafa 2%, #efefef 98%);
+    background-image: linear-gradient(to bottom, #fafafa 2%, #efefef 98%);
+    -webkit-box-shadow: inset 0 1px 0 white, inset 0 -1px 0 #e7e7e7, 0 2px 3px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 0 white, inset 0 -1px 0 #e7e7e7, 0 2px 3px rgba(0, 0, 0, 0.05);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.login-button {
+    width: 100%;
+    /*background-color: #60a0ea;*/
+    /*border-radius: 2px;*/
+    /*color: white;*/
+    height: 32px;
+    padding: 0 14px;
+    color: #f2f6fa;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1px solid #4b7eb8;
+    border-top-color: #5183b9;
+    border-bottom-color: #4272af;
+    background-color: #60a0ea;
+    background-image: -webkit-linear-gradient(top, #67a7eb 2%, #5491de 98%);
+    background-image: linear-gradient(to bottom, #67a7eb 2%, #5491de 98%);
+    -webkit-box-shadow: inset 0 1px 0 #93bbed, inset 0 -1px 0 #4f8cd8, 0 2px 3px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 0 #93bbed, inset 0 -1px 0 #4f8cd8, 0 2px 3px rgba(0, 0, 0, 0.05);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
+    padding: 0 16px;
+    font-weight: bold;
+    min-width: 70px;
+}
+
+.login-button:hover {
+    /*height: 320px;*/
+    background-image: -webkit-linear-gradient(top, #67a7eb 100%, #5491de 100%);
+    background-image: linear-gradient(to bottom, #67a7eb 100%, #5491de 100%);
+}
+
+.form-input {
+    width: 22em;
+}
