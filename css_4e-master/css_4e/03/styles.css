@@ -12,3 +12,10 @@ p {
     font-family: 'Kurale', serif;
 }
 
+h1, h2, h3 {
+    color: rgba(255, 255, 255, 1);
+    font-family: Arial, "Palatino Linotype", Times, serif;
+    border-bottom: 2px solid rgba(87, 185, 178, 1);
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
